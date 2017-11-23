@@ -1,0 +1,97 @@
+.body {
+	width: 70%;
+	padding: 0px 15% 0px 15%;
+}
+.header {
+	background: #ffffff;
+	height: 100px;
+	width: 70%;
+	padding: 0px 15% 0px 15%;
+	border-width: 0px 0px 2px 0px;
+	border-color: #cccccc;
+	border-style: solid;
+	position: absolute;
+	}
+
+	.name {
+		background: #4aaaa5;
+		padding: 25px 0px 35px 0px;
+		width:250px;
+		text-align: center;
+		font-size: 40px;
+		color: white;
+		font-weight: bold;
+		}
+
+	.links {
+		position: relative;
+		right: 0;
+		bottom: 60%
+		}
+
+		.contact {
+			float: right;
+			}
+
+		.about {
+			float: right;
+			}
+		
+		.portfolio {
+			float: right;
+			margin: 0px 10px 0px 10px;
+			border-style: solid;
+			border-color: #dddddd;
+			border-width: 0px 2px 0px 2px;
+			padding: 0px 10px 0px 10px;
+			}
+
+.section {
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	width: 650px;
+	float: left;
+}
+
+.aside {
+	float: right;
+	width: 270px;
+	height: 160px;
+	background: #ffffff;
+	text-align: center;
+	padding: 30px 0px 0px;
+	font-size: 150%;
+	font-weight: bold;
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	}
+
+	.icons {
+		padding: 25px 0px 0px;
+		margin: 25px 20px 0px;
+		border-top-width: 2px;
+		border-color: #dddddd;
+		border-style: solid;
+		width: 230px;
+	}
+
+	img {
+		height: 60px;
+		width: 60px;
+		padding: 0px 3px;
+	}
+.footer {
+	background: #666666;
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+	color: white;
+	border-width: 10px 0px 0px 0px;
+	border-color: #4aaaa5;
+	border-style: solid;
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+}
