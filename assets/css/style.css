@@ -2,6 +2,7 @@
 	width: 70%;
 	padding: 0px 15% 0px 15%;
 }
+
 .header {
 	background: #ffffff;
 	height: 100px;
@@ -23,28 +24,34 @@
 		font-weight: bold;
 		}
 
-	.links {
-		position: relative;
-		right: 0;
-		bottom: 60%
-		}
-
-		.contact {
-			float: right;
+		.links {
+			position: relative;
+			right: 0;
+			bottom: 60%
 			}
 
-		.about {
-			float: right;
-			}
-		
-		.portfolio {
-			float: right;
-			margin: 0px 10px 0px 10px;
-			border-style: solid;
-			border-color: #dddddd;
-			border-width: 0px 2px 0px 2px;
-			padding: 0px 10px 0px 10px;
-			}
+			.contact {
+				float: right;
+				}
+
+			.about {
+				float: right;
+				}
+			
+			.portfolio {
+				float: right;
+				margin: 0px 10px 0px 10px;
+				border-style: solid;
+				border-color: #dddddd;
+				border-width: 0px 2px 0px 2px;
+				padding: 0px 10px 0px 10px;
+				}
+
+.aside: after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .section {
 	border-color: #dddddd;
@@ -52,7 +59,17 @@
 	border-style: solid;
 	width: 650px;
 	float: left;
+	background: red;
+	position: fixed;
+	top: 150px;
 }
+
+.section {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
 
 .aside {
 	float: right;
@@ -82,6 +99,34 @@
 		width: 60px;
 		padding: 0px 3px;
 	}
+
+.section1 {
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	width: 650px;
+	float: left;
+	background: #ffffff;
+	position: fixed;
+	top: 150px;
+	bottom: 150px;}
+	
+	.aboutme {
+		font-size: 200%;
+		font-weight: bold;
+		color: #4aaaa5;
+		margin: 20px 10px 20px 20px;
+		border-width:0px 0px 3px 0px;
+		border-style: solid;
+		border-color: #dddddd;
+		padding: 10px 0px 20px 0px;
+	}
+
+	.content {
+		margin: 20px;
+		
+	}
+
 .footer {
 	background: #666666;
 	width: 100%;
@@ -95,3 +140,9 @@
 	bottom: 0px;
 	height: 30px;
 }
+
+.footer {
+  content: "";
+  display: table;
+  clear: both;
+}'
