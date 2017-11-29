@@ -2,148 +2,270 @@
 	width: 70%;
 	padding: 0px 15% 0px 15%;
 }
-
-.header {
-	background: #ffffff;
-	height: 100px;
-	width: 70%;
-	padding: 0px 15% 0px 15%;
-	border-width: 0px 0px 2px 0px;
-	border-color: #cccccc;
-	border-style: solid;
-	position: absolute;
-	}
-
-	.name {
-		background: #4aaaa5;
-		padding: 25px 0px 35px 0px;
-		width:250px;
-		text-align: center;
-		font-size: 40px;
-		color: white;
-		font-weight: bold;
-	 }
-
-		.links {
-			position: relative;
-			right: 0;
-			bottom: 60%
-			}
-
-			.contact {
-				float: right;
-			}
-
-			.about {
-				float: right;
-			}
-			
-			.portfolio {
-				float: right;
-				margin: 0px 10px 0px 10px;
-				border-style: solid;
-				border-color: #dddddd;
-				border-width: 0px 2px 0px 2px;
-				padding: 0px 10px 0px 10px;
-			}
-
-.section {
-	border-color: #dddddd;
-	border-width: 2px;
-	border-style: solid;
-	width: 650px;
-	float: left;
-	background: red;
-	position: fixed;
-	top: 150px;
+html {
+  overflow-y: scroll;
+  min-height: 100%;
  }
-
-	.section {
-  	display: block;
-	content: "";
-	clear: both;
-	}	
-
-.aside {
-	float: right;
-	width: 270px;
-	height: 160px;
-	background: #ffffff;
-	text-align: center;
-	padding: 30px 0px 0px;
-	font-size: 150%;
-	font-weight: bold;
-	border-color: #dddddd;
-	border-width: 2px;
-	border-style: solid;
-	position: relative;
-	top: 150px;
-}
-
-	.icons {
-		padding: 25px 0px 0px;
-		margin: 25px 20px 0px;
-		border-top-width: 2px;
-		border-color: #dddddd;
+	.header { /*header on every page*/
+		background: #ffffff;
+		height: 100px;
+		width: 70%;
+		padding: 0px 15% 0px 15%;
+		border-width: 0px 0px 2px 0px;
+		border-color: #cccccc;
 		border-style: solid;
-		width: 230px;
-	}
+		position: absolute;
+		font-family: 'Georgia', Times, Times New Roman, serif;
+	 }
+	
+		.name {
+			background: #4aaaa5;
+			padding: 30px 0px 40px 0px;
+			width:250px;
+			text-align: center;
+			font-size: 30px;
+			color: white;
+			font-weight: bold;
+		 }
 
-		img {
-			height: 60px;
-			width: 60px;
-			padding: 0px 3px;
+			.links {
+				position: relative;
+				right: 0;
+				bottom: 60%			
+				 }
+	
+				.contact {
+					float: right;
+				 }
+	
+				.about {
+					float: right;
+				 }
+				
+				.portfolio {
+					float: right;
+					margin: 0px 10px 0px 10px;
+					border-style: solid;
+					border-color: #dddddd;
+					border-width: 0px 2px 0px 2px;
+					padding: 0px 10px 0px 10px;
+				 }
+
+				 a {
+				 	text-decoration: none;
+				 	color: #777777;
+				 }
+	
+	.section { /*main content on contact page*/
+		border-color: #dddddd;
+		border-width: 2px;
+		border-style: solid;
+		width: 53%;
+		float: left;
+		background: #ffffff;
+		position: fixed;
+		top: 150px;
+		bottom: 150px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #777777;
+		font-weight: bold;
+ 	 }
+ 	 	.cnt {
+			font-size: 200%;
+			font-weight: bold;
+			color: #4aaaa5;
+			margin: 20px 10px 20px 20px;
+			border-width:0px 0px 3px 0px;
+			border-style: solid;
+			border-color: #dddddd;
+			padding: 10px 0px 20px 0px;
+ 	 	 }
+
+ 	 	.boxes {
+ 	 		width: 53%;
+ 	 		float: left;
+ 	 		line-height: 50px;
+ 	 		height: 40px
+ 	 	}
+
+ 	 	.yourname {
+			float: left;
+			position: fixed;
+  			left: 310px;
+			top: 257px;
+			font-size: 20px;
+ 	 	}
+
+ 	 	.email {
+			float: left;
+			position: fixed;
+  			left: 310px;
+			top: 345px;
+			font-size: 20px;
 		}
 
-.section1 {
-	border-color: #dddddd;
-	border-width: 2px;
-	border-style: solid;
-	width: 650px;
-	float: left;
-	background: #ffffff;
-	position: fixed;
-	top: 150px;
-	bottom: 150px; 
- }
+		.message {
+			float: left;
+			position: fixed;
+  			left: 310px;
+			top: 425px;
+			font-size: 20px;
+		}
+
+		.input{
+			width: 53%;
+ 	 		float: left;
+ 	 		line-height: 50px;
+ 	 		height: 40px;
+ 	 		height: 200px;
+		}
+
+		.submit{
+			float: left;
+			position: fixed;
+  			left: 310px;
+			top: 730px;
+		}
 	
-	.aboutme {
-		font-size: 200%;
-		font-weight: bold;
-		color: #4aaaa5;
-		margin: 20px 10px 20px 20px;
-		border-width:0px 0px 3px 0px;
-		border-style: solid;
+		input[type=text], select, textarea {
+   			width: 95%; 
+   			padding: 12px; 
+   			border: 1px solid #ccc; 
+   			border-radius: 4px; 
+   			box-sizing: border-box; 
+   			margin-top: 20px;
+   			margin-bottom: 20px;
+   			margin-left: 20px
+		 }
+	
+		input[type=submit] {
+   			background-color: #4aaaa5;
+   			color: white;
+   			padding: 12px 20px;
+   			border: none;
+   			border-radius: 4px;
+   			cursor: pointer;
+   			width: 150px;
+   			height: 50px;
+   			font-size: 20px;
+		}
+
+	.section1 {/*main content on index page*/
 		border-color: #dddddd;
-		padding: 10px 0px 20px 0px;
+		border-width: 2px;
+		border-style: solid;
+		width: 53%;
+		float: left;
+		background: #ffffff;
+		position: fixed;
+		top: 150px;
+		bottom: 150px; 
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	 }
+		
+		.aboutme {
+			font-size: 200%;
+			font-weight: bold;
+			color: #4aaaa5;
+			margin: 20px 10px 20px 20px;
+			border-width:0px 0px 3px 0px;
+			border-style: solid;
+			border-color: #dddddd;
+			padding: 10px 0px 20px 0px;
+		 }
+	
+		.me {
+			height: 150px;
+			width: 225px;
+			float: left;
+			margin: 0px 20px 0px 0px;
+		 }
+	
+		.content {
+			margin: 20px;
+		 }
+		
+	.section2 {/*main content on portfolio page*/
+		border-color: #dddddd;
+		border-width: 2px;
+		border-style: solid;
+		width: 53%;
+		float: left;
+		background: #ffffff;
+		position: fixed;
+		top: 150px;
+		bottom: 150px; 
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		content: "";
+  		display: table;
+  		clear: both;
+  		text-align: center;
+ 	 }
+		.port {
+			font-size: 200%;
+			font-weight: bold;
+			color: #4aaaa5;
+			margin: 20px 10px 20px 20px;
+			border-width:0px 0px 3px 0px;
+			border-style: solid;
+			border-color: #dddddd;
+			padding: 10px 0px 20px 0px;
+			text-align: left;
+		 }
 
-	.me {
-		height: 100px;
-		width: 150px;
-	}
+		 .pics{
+		 	height: 200px;
+		 	width: 300px;
+		 	margin: 20px;
+		 }
 
-	.content {
-		margin: 20px;
+	.aside {/*connect with me aside on every page*/
+		float: right;
+		width: 270px;
+		height: 160px;
+		background: #ffffff;
+		text-align: center;
+		padding: 30px 0px 0px;
+		font-size: 150%;
+		font-weight: bold;
+		border-color: #dddddd;
+		border-width: 2px;
+		border-style: solid;
+		position: fixed;
+		top: 150px;
+		right: 285px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	 }
-
-
-.footer {
-	background: #666666;
-	width: 100%;
-	text-align: center;
-	padding-top: 60px;
-	color: white;
-	border-width: 10px 0px 0px 0px;
-	border-color: #4aaaa5;
-	border-style: solid;
-	position: absolute;
-	bottom: 0px;
-	height: 30px;
- }
-
-.footer {
-	content: "";
-	display: table;
-	clear: both;
- }
+	
+		.icons {
+			padding: 25px 0px 0px;
+			margin: 25px 20px 0px;
+			border-top-width: 2px;
+			border-color: #dddddd;
+			border-style: solid;
+			width: 230px;
+		 }
+	
+			img {
+				height: 60px;
+				width: 60px;
+				padding: 0px 3px;
+			 }
+	
+	.footer {/*footer on every page*/
+		background: #666666;
+		width: 100%;
+		text-align: center;
+		padding-top: 60px;
+		color: white;
+		border-width: 10px 0px 0px 0px;
+		border-color: #4aaaa5;
+		border-style: solid;
+		position: fixed;
+		bottom: 0px;
+		height: 30px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		content: "";
+		display: table;
+		clear: both;
+	  }
