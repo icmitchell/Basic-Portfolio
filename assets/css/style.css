@@ -219,6 +219,34 @@ html {
 		 	margin: 20px;
 		 }
 
+		 .proj{
+			position: absolute;
+			top: 100px;
+		 }
+
+		 	.projects1{
+		 		height: 40px;
+		 		width: 300px;
+		 		background: #4aaaa5;
+		 		top: 300px;
+		 		float: left;
+		 		margin: 165px 0px 0px 179px;
+		 		color: white;
+		 		font-size: 30px;
+			 }	
+
+			 .projects2{
+		 		height: 40px;
+		 		width: 300px;
+		 		background: #4aaaa5;
+		 		top: 300px;
+		 		float: left;
+		 		margin: 165px 0px 40px 50px;
+		 		color:white;
+		 		font-size: 30px;
+			 }
+
+
 	.aside {/*connect with me aside on every page*/
 		float: right;
 		width: 270px;
@@ -235,6 +263,7 @@ html {
 		top: 150px;
 		right: 285px;
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: #4aaaa5;
 	 }
 	
 		.icons {
